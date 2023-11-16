@@ -11,7 +11,7 @@ import SwiftUI
 struct DeNetApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          TreeView(viewModel: .init())
         }
     }
 }

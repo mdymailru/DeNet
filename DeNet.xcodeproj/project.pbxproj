@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0C1AAB802B04FFDF00981304 /* DeNetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AAB7F2B04FFDF00981304 /* DeNetApp.swift */; };
-		0C1AAB822B04FFDF00981304 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AAB812B04FFDF00981304 /* ContentView.swift */; };
+		0C1AAB822B04FFDF00981304 /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AAB812B04FFDF00981304 /* TreeView.swift */; };
 		0C1AAB842B04FFE000981304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AAB832B04FFE000981304 /* Assets.xcassets */; };
 		0C1AAB872B04FFE000981304 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AAB862B04FFE000981304 /* Preview Assets.xcassets */; };
+		0C1AAB8E2B0516D900981304 /* TreeDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AAB8D2B0516D900981304 /* TreeDomain.swift */; };
+		0C1AAB902B0518E700981304 /* TreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AAB8F2B0518E700981304 /* TreeViewModel.swift */; };
+		0C1AAB922B05194700981304 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AAB912B05194700981304 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C1AAB7C2B04FFDF00981304 /* DeNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1AAB7F2B04FFDF00981304 /* DeNetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeNetApp.swift; sourceTree = "<group>"; };
-		0C1AAB812B04FFDF00981304 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C1AAB812B04FFDF00981304 /* TreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeView.swift; sourceTree = "<group>"; };
 		0C1AAB832B04FFE000981304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C1AAB862B04FFE000981304 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C1AAB8D2B0516D900981304 /* TreeDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeDomain.swift; sourceTree = "<group>"; };
+		0C1AAB8F2B0518E700981304 /* TreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeViewModel.swift; sourceTree = "<group>"; };
+		0C1AAB912B05194700981304 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				0C1AAB7E2B04FFDF00981304 /* DeNet */,
+				0C1AAB832B04FFE000981304 /* Assets.xcassets */,
 				0C1AAB7D2B04FFDF00981304 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				0C1AAB7F2B04FFDF00981304 /* DeNetApp.swift */,
-				0C1AAB812B04FFDF00981304 /* ContentView.swift */,
-				0C1AAB832B04FFE000981304 /* Assets.xcassets */,
+				0C1AAB912B05194700981304 /* Model.swift */,
+				0C1AAB8F2B0518E700981304 /* TreeViewModel.swift */,
+				0C1AAB812B04FFDF00981304 /* TreeView.swift */,
+				0C1AAB8D2B0516D900981304 /* TreeDomain.swift */,
 				0C1AAB852B04FFE000981304 /* Preview Content */,
 			);
 			path = DeNet;
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C1AAB822B04FFDF00981304 /* ContentView.swift in Sources */,
+				0C1AAB922B05194700981304 /* Model.swift in Sources */,
+				0C1AAB822B04FFDF00981304 /* TreeView.swift in Sources */,
 				0C1AAB802B04FFDF00981304 /* DeNetApp.swift in Sources */,
+				0C1AAB902B0518E700981304 /* TreeViewModel.swift in Sources */,
+				0C1AAB8E2B0516D900981304 /* TreeDomain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
