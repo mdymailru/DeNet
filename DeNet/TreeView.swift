@@ -34,7 +34,7 @@ struct TreeView: View {
           viewModel.reduceMap()
           self.isSheet = true
         }) {
-          Image(systemName: "tree.circle")
+          Image(systemName: "map.circle")
             .resizable()
             .frame(width: 32, height: 32)
             //.fontWeight(.thin)
