@@ -21,7 +21,7 @@ struct TreeView: View {
           Image(systemName: "arrow.up.circle")
             .resizable()
             .frame(width: 32, height: 32)
-            .fontWeight(.thin)
+            //.fontWeight(.thin)
         }.disabled(viewModel.currentNode.level == 0)
         
         Spacer()
@@ -37,7 +37,7 @@ struct TreeView: View {
           Image(systemName: "tree.circle")
             .resizable()
             .frame(width: 32, height: 32)
-            .fontWeight(.thin)
+            //.fontWeight(.thin)
         }
       }
       Text(viewModel.currentNode.value)
@@ -62,7 +62,7 @@ struct TreeView: View {
         Image(systemName: "plus.circle")
           .resizable()
           .frame(width: 42, height: 42)
-          .fontWeight(.thin)
+          //.fontWeight(.thin)
       }
     }
     
@@ -97,11 +97,11 @@ struct TreeView: View {
           Image(systemName: "xmark.circle")
             .resizable()
             .frame(width: 32, height: 32)
-            .fontWeight(.thin)
+            //.fontWeight(.thin)
         }.padding(.horizontal)
       }.padding()
     }
-    .font(.body.width(.condensed))
+    .font(.body)
     .padding()
   }
 }
